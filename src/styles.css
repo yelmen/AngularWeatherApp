@@ -1,1 +1,125 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:16px;
+  width:100%;
+  height:100vh;
+  background-color:rgb(91, 23, 155);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.container{
+  width:400px;
+  height: 80vh;
+  background-color:rgb(145, 145, 224);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px  rgb(21, 35, 53);
+
+}
+.upperdata{
+  position:relative;
+  overflow:hidden;
+  width:100%;
+  height:50%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.upperdata img{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+}
+.weatherdata{
+  position:relative;
+  z-index:1;
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+.location{
+  color:white;
+  font-size: 52px;
+  font-weight: 1200px;
+  margin-bottom: 29px;
+}
+.temperature{
+  color:white;
+  font-size: 52px;
+  font-weight: 1200px;
+}
+.moreInfoContainer{
+  margin-top: 35px;
+  display:flex;
+  flex-direction:row;
+  background-color:blue;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+
+}
+.moreInfoLabel{
+  margin: 15px;
+}
+.infoBlock{
+  margin: 15px;
+}
+.moreInfoContainer2{
+  display:flex;
+  flex-direction:row;
+  background-color:blue;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.moreInfoLabel{
+  display: flex;
+  justify-content:center;
+  color: white;
+  font-size: 18px;
+  font-weight:440px;
+}
+.infoBlockLabel{
+  color:white;
+}
+.infoBlockValue{
+  color:white;
+}
+.infoBlock2{
+  margin: 15px;
+  margin-left: 110px;
+}
+.infoBlock3{
+  margin: 15px;
+  margin-left: 140px;
+}
+mat-icon{
+  margin-right: 10px;
+}
+.midcontainer{
+  background-color: blue;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.search{
+  display:flex;
+  justify-content:center;
+}
+mat-form-field:hover{
+  border-color: white;
+
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
